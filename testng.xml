@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="username" value="arunkumar.m@angleritech.com"/>
+<parameter name="password" value="angler*#1400"/>
+  <test name="Login Test">
+  <classes>
+  <class name="com.crm.executionEngine.AddCustomerPage">
+  <methods>
+  <include name="AddCustomer_Chkreset.*"/>
+  <exclude name="AddCustomer_ChkSave.*"/>
+  <exclude name="EditCustomer_chkData_Reset.*"/>
+  <exclude name="EditCustomer_chkData_save.*"/>
+  </methods>
+  </class>
+  </classes>
+  </test>
+  </suite>

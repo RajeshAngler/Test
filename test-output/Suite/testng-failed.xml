@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="angler*#1400"/>
+  <parameter name="username" value="arunkumar.m@angleritech.com"/>
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="com.crm.executionEngine.AddCustomerPage">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="AddCustomer_Chkreset" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.crm.executionEngine.AddCustomerPage -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
